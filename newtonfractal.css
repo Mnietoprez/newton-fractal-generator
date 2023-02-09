@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(67, 0, 129));
+}
+
+
+.maincontainer {
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.216);
+    height: 700px;
+    border-radius: 10px;
+    text-align: center;
+    display:block;
+}
+
+.maincontainer h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 60px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.app {
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    display:flex;
+    padding-left: 60px;
+}
+
+.params {
+    width: 25%;
+    padding-top:40px;
+    height: 350px;
+    display:block;
+    background-color: rgba(255, 255, 255, 0.419);
+    border-radius: 10px;
+}
+
+.params h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 0px;
+    
+}
+
+.params button {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.vspace {
+    width: 60%;
+    padding-top:40px;
+    height: 350px;
+    display:block;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
