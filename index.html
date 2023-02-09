@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="newtonfractal.css">
+    <meta charset="utf-8" />
+    <script src="cfloatClass.js"></script>
+  </head>
+
+  <body>
+    <script src="newtonfractal.js"></script>
+    <div class="maincontainer">
+        <h1>Newton fractal generator</h1>
+        <h1 style="font-size: 22px;">By Marco Nieto, Roque Mula and Pablo Pérez</h1>
+        <br><br>
+      <div class="app">
+        <div class="params">
+            <h1>Parameters</h1>
+            <br><br><br><br><br>
+            <button onClick=generateRoots() >Generate random roots</button>
+            <br><br><br>
+            <button onClick=changeMode()>Make fractal!</button> 
+          </div> 
+        <div class="vspace">
+        </div> 
+        <div class="params">
+          <h1>Optional features</h1>
+          <br><br><br><br><br>
+            <button id="savebtn" onClick=changeAutosave() >Autosave: ON</button>
+          
+        </div>
+      </div>
+    </div>
+    
